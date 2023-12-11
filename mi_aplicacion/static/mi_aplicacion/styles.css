@@ -1,0 +1,43 @@
+*{
+
+    font-family: 'Century Gothic', sans-serif;
+}
+
+body {
+    font-family: 'Century Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #F0B27A;  /* Rojo */
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #7DCEA0;  /* Rojo oscuro al pasar el ratón */
+}
+
+.content {
+    padding: 20px;
+}
+
